@@ -1,0 +1,288 @@
+@mixin dots($count) {
+  $text-shadow: ();
+  @for $i from 0 through $count {
+    $text-shadow: $text-shadow,
+                 (-.5+(random()) * 3) + em
+                 (-.5+(random()) * 3) + em
+                 7px
+                 hsla(random() * 360, 100%, 50%,.9);
+  }
+  text-shadow: $text-shadow;
+}
+
+html {
+  font: 5vmin/1.3 Serif;
+  overflow: hidden;
+  background: #123;
+}
+
+body, head {
+  display: block;
+  font-size: 52px;
+}
+
+head::before, head::after,
+body::before, body::after {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 3em;
+  height: 3em;
+  content: '.';
+  mix-blend-mode: screen;
+  animation: 44s -27s move infinite ease-in-out alternate;
+}
+
+
+body::before {
+  @include dots(40);
+  animation-duration: 44s;
+  animation-delay: -27s;
+}
+
+body::after {
+  @include dots(40);
+  animation-duration: 43s;
+  animation-delay: -32s;
+}
+
+head::before {
+  @include dots(40);
+  animation-duration: 42s;
+  animation-delay: -23s;
+}
+
+head::after {
+  @include dots(40);
+  animation-duration: 41s;
+  animation-delay: -19s;
+}
+
+
+@keyframes move {
+  from {
+    transform: rotate(0deg) scale(12) translateX(-20px);
+  }
+  to {
+    transform: rotate(360deg) scale(18) translateX(20px);
+  }
+}
+
+#root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #252525ba;
+  z-index: 1;
+}
+
+.app {
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+  
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fancy-font {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.welcome-screen, .code-input, .painting-info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin: 0;
+  }
+
+  .background {
+    background: url('/mazovia_main_banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+
+  .error {
+    position: absolute;
+    bottom: 5%;
+    margin: 0;
+    text-align: center;
+  }
+
+  input {
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    padding: 5px;
+    border: hsla(195.6584553314, 100%, 50%, 0.9) 4px solid;
+    font-size: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.75rem;
+  }
+  
+  .content {
+    background-color: #141313;
+    min-height: 500px;
+    height: 65%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    p {
+      color: white;
+      font-size: 0.625rem;
+
+      span {
+        font-weight: 400;
+      }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 0.75rem;
+    }
+
+    h3 {
+      font-size: 0.625rem;
+    }
+
+    h1, h2, h3 {
+      color: #FFFFFF  ;
+      padding: 0;
+      margin: 0.5rem;
+      text-align: center;
+    }
+
+    .info-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+
+      @media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+      }
+
+      .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .img-wrapper {
+        img {
+          max-height: 200px;
+
+          @media screen and (min-width: 768px) {
+            max-height: 350px;
+          }
+        }
+      }
+    }
+
+  button {
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 75px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  button:active,
+  button:hover {
+    outline: 0;
+  }
+
+  button span {
+    background-color: rgb(5, 6, 45);
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  button:hover span {
+    background: none;
+  }
+
+  }
+}
+

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import WelcomeScreen from './components/WelcomeScreen';
-import CodeInput from './components/CodeInput';
+import CodeInput from './CodeInput';
 import PaintingInfo from './components/PaintingInfo';
 import mockData from './mockData.json';
 
@@ -32,5 +32,5 @@ const App = () => {
     </div>
   );
 };
-  
+
 export default App;
