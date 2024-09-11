@@ -1,12 +1,219 @@
 [
     {
-      "code": "1234",
-      "country": "Japan",
-      "artist": "Shinobu Kakyoin",
-      "title": "Shin Soma Bushi",
-      "owner": "Uto",
-      "image": "https://i.postimg.cc/13mdX0vs/Japan-wv190.png",
-      "status": "Qualified"
+        "code": "113670",
+        "country": "Greece",
+        "artist": "Deaf Radio",
+        "title": "Model Society",
+        "owner": "Nicholas123",
+        "image": "https://i.postimg.cc/kGYGcNV3/Greece-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "151164",
+        "country": "Cyprus",
+        "artist": "Haris Alexiou & Michalis Hatzigiannis",
+        "title": "S' Agapo S' Agapo",
+        "owner": "CypriotGirl",
+        "image": "https://i.postimg.cc/9fy4hqkZ/Cyprus-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "164319",
+        "country": "Sudogwon",
+        "artist": "Chung Ha",
+        "title": "I'm Ready",
+        "owner": "Arion",
+        "image": "https://i.postimg.cc/dQNVgB0g/Sudogwon-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "179685",
+        "country": "England",
+        "artist": "Craig Connelly & Christina Novelli",
+        "title": "Black Hole",
+        "owner": "Genesis",
+        "image": "https://i.postimg.cc/gJDnwbm0/England-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "288115",
+        "country": "India",
+        "artist": "W.i.S.H.",
+        "title": "Galti",
+        "owner": "DonHamstre",
+        "image": "https://i.postimg.cc/QxPVKbGc/India-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "299326",
+        "country": "Italy",
+        "artist": "Planet Funk",
+        "title": "Chase the Sun",
+        "owner": "BernadetteCydonia",
+        "image": "https://i.postimg.cc/fbQLBRbL/Italy-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "319990",
+        "country": "London",
+        "artist": "Charli XCX",
+        "title": "Good Ones",
+        "owner": "WolvXCII",
+        "image": "https://i.postimg.cc/Jh3hgCyQ/London-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "350875",
+        "country": "Tohoku",
+        "artist": "iScream",
+        "title": "Sorry Not Sorry",
+        "owner": "Edweis",
+        "image": "https://i.postimg.cc/YqJqCCY3/Tohoku-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "369707",
+        "country": "Iceland",
+        "artist": "aYia",
+        "title": "New Moon",
+        "owner": "ShoeFlo",
+        "image": "https://i.postimg.cc/PrNPq7ct/Iceland-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "509234",
+        "country": "Western USA",
+        "artist": "Madison Beer",
+        "title": "15 Minutes",
+        "owner": "Leydan",
+        "image": "https://i.postimg.cc/6Qh9cVSj/WUSA-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "553359",
+        "country": "North Macedonia",
+        "artist": "Eye Cue",
+        "title": "Bobi bas mi e gajle",
+        "owner": "Rxllinson",
+        "image": "https://i.postimg.cc/FR9KXC3X/North-Macedonia-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "600844",
+        "country": "Egypt",
+        "artist": "Kiss Facility",
+        "title": "So Many Ways",
+        "owner": "hjarnskakning",
+        "image": "https://i.postimg.cc/mDRP2gxq/Egypt-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "603199",
+        "country": "Sweden",
+        "artist": "Sofie Svensson & Dom Där",
+        "title": "Helium",
+        "owner": "theditz83",
+        "image": "https://i.postimg.cc/RV3ZmH6h/Sweden-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "673498",
+        "country": "Turkmenistan",
+        "artist": "Aria",
+        "title": "Madmuazel",
+        "owner": "Sultana",
+        "image": "https://i.postimg.cc/43Gfp28H/Turkmenistan-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "686859",
+        "country": "Armenia",
+        "artist": "Iskuhi Hovhannisyan",
+        "title": "Hima Herte Imna",
+        "owner": "MojVoda",
+        "image": "https://i.postimg.cc/kgdKfpmF/Armenia-wv190-1.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "698741",
+        "country": "Ireland",
+        "artist": "Nell Mescal",
+        "title": "In My Head",
+        "owner": "theCONWEL",
+        "image": "https://i.postimg.cc/HkynwydR/Ireland-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "802101",
+        "country": "Bavaria",
+        "artist": "Glockenbach feat. ClockClock",
+        "title": "Brooklyn",
+        "owner": "Amir",
+        "image": "https://i.postimg.cc/13nnvdcW/Bavaria-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "848737",
+        "country": "Pacific States",
+        "artist": "Allie X",
+        "title": "Black Eye",
+        "owner": "Marcos C",
+        "image": "https://i.postimg.cc/85tzpdmJ/Pacific-states-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "935706",
+        "country": "Portugal",
+        "artist": "Tais Quais",
+        "title": "Limoeiro",
+        "owner": "JSSArcos",
+        "image": "https://i.postimg.cc/L556nqxy/Portugal-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "955726",
+        "country": "Baden-Württemberg",
+        "artist": "Get Well Soon",
+        "title": "One For Your Workout",
+        "owner": "daniels1000",
+        "image": "https://i.postimg.cc/bw7GWRmq/Baden-W-rttemberg-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "962715",
+        "country": "Hungary",
+        "artist": "QJÚB",
+        "title": "magamhoz",
+        "owner": "Gabor77",
+        "image": "https://i.postimg.cc/7PK5w4Ks/Hungary-wv190.png",
+        "status": "Qualified"
+    },
+    {
+        "code": "980269",
+        "country": "Scania",
+        "artist": "Metro Jets",
+        "title": "The Morning Show",
+        "owner": "Scania",
+        "image": "https://i.postimg.cc/D0Nfs2D7/Scania-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "981155",
+        "country": "Finland",
+        "artist": "Dark Sarah feat. JP Leppäluoto",
+        "title": "Dance with the Dragon",
+        "owner": "EurovisionSmile",
+        "image": "https://i.postimg.cc/Vvk5nZkW/Finland-wv190.png",
+        "status": "Not qualified"
+    },
+    {
+        "code": "994184",
+        "country": "Türkiye",
+        "artist": "Atiye",
+        "title": "Maazallah",
+        "owner": "Journalist",
+        "image": "https://i.postimg.cc/x1MjJVPS/T-rkiye-wv190.png",
+        "status": "Not qualified"
     }
   ]
   
