@@ -4,6 +4,7 @@ import CodeInput from './CodeInput';
 import PaintingInfo from './components/PaintingInfo';
 import mockData from './mockData.json';
 import usePullToRefresh from './usePullToRefresh';
+import NeonCursor from './NeonCursor';
 
 const App = () => {
   const [step, setStep] = useState('welcome');
@@ -33,6 +34,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <NeonCursor />
       {step === 'welcome' && <WelcomeScreen onClick={() => setStep('code')} />}
       {step === 'code' && <CodeInput onSubmit={handleCodeCheck} error={error} />}
       {step === 'info' && painting && <PaintingInfo painting={painting} onBack={handleBack} />}
