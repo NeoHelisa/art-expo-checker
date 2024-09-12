@@ -81,15 +81,6 @@
         "status": "Qualified"
     },
     {
-        "code": "112233",
-        "country": "sadasf dasflsk fasdfasdf asdfa sdfasdfasdf",
-        "artist": "aadfadfa sfasdfa fasfdafa fadsf",
-        "title": "asdasf dfsfsdfsdf sdfsdfsdfsdfsdfsdfsd",
-        "owner": "asdasfas dasfafasfasfasfafasfa",
-        "image": "https://i.postimg.cc/PrNPq7ct/Iceland-wv190.png",
-        "status": "Not qualified"
-    },
-    {
         "code": "509234",
         "country": "Western USA",
         "artist": "Madison Beer",
