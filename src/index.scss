@@ -25,6 +25,10 @@ body, head {
   font-size: 52px;
 }
 
+body {
+  overscroll-behavior: none;
+}
+
 head::before, head::after,
 body::before, body::after {
   position: fixed;
