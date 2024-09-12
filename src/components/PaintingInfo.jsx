@@ -9,13 +9,53 @@ const PaintingInfo = ({ painting, onBack }) => {
       </div>
       <div className='content'>
         <div className='info-wrapper'>
-          <div className='details'>
-            <p>Country: <span>{painting.country}</span></p>
-            <p>Artist: <span>{painting.artist}</span></p>
-            <p>Title: <span>{painting.title}</span></p>
-            <p>Owner: <span>{painting.owner}</span></p>
-            <p>Status: <span style={{ color: statusColor, fontWeight: 'bold' }}>{painting.status}</span></p>
-            <h3>Thank you!</h3>
+          <div className='details-container'>
+            <div className='details-wrapper'>
+              <div className='details'>
+                <table>
+                  <tr>
+                    <td>
+                      <span className='info-title'>Country:</span>
+                    </td>
+                    <td>
+                      <span>{painting.country}</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span className='info-title'>Artist:</span>
+                    </td>
+                    <td>
+                      <span>{painting.artist}</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span className='info-title'>Title:</span>
+                    </td>
+                    <td>
+                      <span>{painting.title}</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span className='info-title'>Owner:</span>
+                    </td>
+                    <td>
+                      <span>{painting.owner}</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span className='info-title'>Status:</span>
+                    </td>
+                    <td>
+                      <span style={{ color: statusColor, fontWeight: 'bold' }}>{painting.status}</span>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
           <div className='img-wrapper'>
             <img src={painting.image} alt={painting.title} />

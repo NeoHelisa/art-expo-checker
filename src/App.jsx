@@ -20,7 +20,7 @@ const App = () => {
   };
 
   const handleBack = () => {
-    setStep('code');
+    setStep('welcome');
     setError(false);
   };
 
