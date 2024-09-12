@@ -9,7 +9,7 @@ const CodeInput = ({ onSubmit, error }) => {
   };
 
   return (
-    <div className="code-input">
+    <div className="code-input main">
       <div className="background"></div>
       <div className="content">
         <div className='top-wrapper'>

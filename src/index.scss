@@ -89,6 +89,12 @@ head::after {
     height: 100%;
     width: 100%;
     display: flex;
+
+    @media screen and (max-width: 992px) {
+      & > div:not(.main)  {
+        display: none;
+    }
+    }
 }
   
 body {
@@ -133,7 +139,7 @@ html body .content .header {
   font-size:2.5rem;
   font-weight: 500;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     font-size: 4rem;
   }
 }
@@ -244,7 +250,7 @@ h1 + hr {
   gap: 1.5rem;
 
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     gap: 1.5rem;
   }
 }
@@ -253,7 +259,7 @@ h1 + hr {
   height: 20%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   html body .code-input .content {
     gap: 1rem;
   
@@ -335,11 +341,11 @@ h1 + hr {
     position: relative;
     padding: 15px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
         gap: 0;
-        max-width: 1400px;
-        height: 600px;
-        max-height: 600px;
+        max-width: 1200px;
+        height: 550px;
+        max-height: 550px;
     }
 
     p {
@@ -376,7 +382,7 @@ h1 + hr {
       flex-direction: column-reverse;
       width: 90%;
 
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 992px) {
         flex-wrap: nowrap;
         flex-direction: row;
       }
@@ -387,7 +393,7 @@ h1 + hr {
         align-items: center;
 
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 992px) {
           justify-content: flex-end;
           width: 50%;
         }
@@ -405,7 +411,7 @@ h1 + hr {
         width: 100%;
         max-width: 400px;
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 992px) {
           width: 90%;
         }
       }
@@ -451,7 +457,7 @@ h1 + hr {
         justify-content: center;
         align-items: center;
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 992px) {
           width: 65%;
         }
   
@@ -459,7 +465,7 @@ h1 + hr {
           max-width: 100%;
           max-height: 220px;
 
-          @media screen and (min-width: 768px) {
+          @media screen and (min-width: 992px) {
             max-height: 350px;
             max-width: 100%;
           }
@@ -494,7 +500,7 @@ h1 + hr {
     width: fit-content;
     min-width: 120px;
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       margin: 0.5rem;
       margin-top: 1.5rem;
     }

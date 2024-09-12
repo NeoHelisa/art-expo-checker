@@ -2,7 +2,7 @@ import React from 'react';
 
 const WelcomeScreen = ({ onClick }) => {
   return (
-    <div className="welcome-screen">
+    <div className="welcome-screen main">
       <div className="background"></div>
       <div className="content">
         <div className='top-wrapper'>

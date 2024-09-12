@@ -4,7 +4,7 @@ const PaintingInfo = ({ painting, onBack }) => {
   const statusColor = painting.status === "Qualified" ? "green" : "red";
 
   return (
-    <div className="painting-info">
+    <div className="painting-info main">
       <div className='background'>
       </div>
       <div className='content'>
