@@ -3,6 +3,7 @@ import WelcomeScreen from './components/WelcomeScreen';
 import CodeInput from './CodeInput';
 import PaintingInfo from './components/PaintingInfo';
 import mockData from './mockData.json';
+import usePullToRefresh from './usePullToRefresh';
 
 const App = () => {
   const [step, setStep] = useState('welcome');
@@ -24,8 +25,15 @@ const App = () => {
     setError(false);
   };
 
+  const handleRefresh = () => {
+    window.location.reload();
+  };
+
+  const isRefreshing = usePullToRefresh(handleRefresh);
+
   return (
     <div className="app">
+      {isRefreshing && <div className="refresh-indicator">Refreshing...</div>}
       {step === 'welcome' && <WelcomeScreen onClick={() => setStep('code')} />}
       {step === 'code' && <CodeInput onSubmit={handleCodeCheck} error={error} />}
       {step === 'info' && painting && <PaintingInfo painting={painting} onBack={handleBack} />}
