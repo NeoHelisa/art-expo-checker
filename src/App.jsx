@@ -33,7 +33,6 @@ const App = () => {
 
   return (
     <div className="app">
-      {isRefreshing && <div className="refresh-indicator">Refreshing...</div>}
       {step === 'welcome' && <WelcomeScreen onClick={() => setStep('code')} />}
       {step === 'code' && <CodeInput onSubmit={handleCodeCheck} error={error} />}
       {step === 'info' && painting && <PaintingInfo painting={painting} onBack={handleBack} />}
