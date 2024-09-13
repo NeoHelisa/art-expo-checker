@@ -214,6 +214,222 @@
         "owner": "Journalist",
         "image": "https://i.postimg.cc/x1MjJVPS/T-rkiye-wv190.png",
         "status": "Not qualified"
-    }
+    },
+    {
+        "code": "245812",
+        "country": "Australia",
+        "artist": "Tom Cardy",
+        "title": "The Ballad of Smokin' Joe Rudeboy",
+        "owner": "ZoboCamel",
+        "image": "https://i.postimg.cc/52gZSKXX/Australia-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "356091",
+        "country": "Bosnia & Herzegovina",
+        "artist": "Olja Bajrami",
+        "title": "Hajde Komandante",
+        "owner": "NikolaiMoller",
+        "image": "https://i.postimg.cc/jjjBg6fZ/B-H-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "471283",
+        "country": "Brittany",
+        "artist": "Zaho de Sagazan",
+        "title": "La Symphonie des Éclairs",
+        "owner": "John1",
+        "image": "https://i.postimg.cc/TPHFZyqG/Brittany-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "582746",
+        "country": "Canada",
+        "artist": "Patrick Watson",
+        "title": "Better in the Shade",
+        "owner": "esc87fan",
+        "image": "https://i.postimg.cc/26bMmz2W/Canada-wv190-2.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "693215",
+        "country": "Croatia",
+        "artist": "Alex Ognjena",
+        "title": "Bože, uzmi me",
+        "owner": "Charly",
+        "image": "https://i.postimg.cc/mDvqg055/Croatia-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "725196",
+        "country": "Faroe Islands",
+        "artist": "Lea Kampmann",
+        "title": "Vestmanna í kava",
+        "owner": "chontono",
+        "image": "https://i.postimg.cc/C5b2BcyL/Faroe-Islands-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "834627",
+        "country": "Germany",
+        "artist": "Hans Zimmer",
+        "title": "Remember",
+        "owner": "marc",
+        "image": "https://i.postimg.cc/WpZCH1DL/Germany-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "927145",
+        "country": "Götaland",
+        "artist": "Jonas Lundqvist",
+        "title": "Änglarna",
+        "owner": "Ekholmia",
+        "image": "https://i.postimg.cc/RVQ8vpQg/G-taland-wv190-1.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "516839",
+        "country": "Île-de-France",
+        "artist": "carbeau",
+        "title": "Mare Nero",
+        "owner": "MARCOMEN",
+        "image": "https://i.postimg.cc/zX16ZYWL/le-de-France-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "413792",
+        "country": "Japan",
+        "artist": "Shinobu Kakyoin",
+        "title": "Shin Soma Bushi",
+        "owner": "Uto",
+        "image": "https://i.postimg.cc/13mdX0vs/Japan-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "227843",
+        "country": "Latvia",
+        "artist": "Evelīna Krama",
+        "title": "Laimīgam būt",
+        "owner": "as78",
+        "image": "https://i.postimg.cc/9QLn74kT/Latvia-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "198356",
+        "country": "New Zealand",
+        "artist": "Kiki Rockwell",
+        "title": "Same Old Energy",
+        "owner": "Celka",
+        "image": "https://i.postimg.cc/yN5pLMs8/New-Zealand-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "654127",
+        "country": "Northeastern USA",
+        "artist": "Two Feet",
+        "title": "Tell Me The Truth",
+        "owner": "Gera11",
+        "image": "https://i.postimg.cc/Gp9SJL0f/NEUSA-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "769381",
+        "country": "Romania",
+        "artist": "Alexandra Stan",
+        "title": "Dance",
+        "owner": "EDC0708",
+        "image": "https://i.postimg.cc/wvmfZwjc/Romania-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "894612",
+        "country": "Russia",
+        "artist": "Tatyana Kurtukova",
+        "title": "Matushka",
+        "owner": "hijirio",
+        "image": "https://i.postimg.cc/90H8hy43/Russia-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "102938",
+        "country": "South Africa",
+        "artist": "Chicco",
+        "title": "I Need Some Money",
+        "owner": "iowacorn",
+        "image": "https://i.postimg.cc/GtPMh9Y4/South-Africa-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "205671",
+        "country": "Southern USA",
+        "artist": "Alabama Shakes",
+        "title": "Hold On",
+        "owner": "RevNet",
+        "image": "https://i.postimg.cc/sDcnkQs8/SUSA-wv190.png",
+        "status": "Qualified"
+      },
+      {
+        "code": "319857",
+        "country": "Spain",
+        "artist": "Los Estanques",
+        "title": "Soy español, pero tengo un Kebab",
+        "owner": "Ewigkeit",
+        "image": "https://i.postimg.cc/dtvHNmPr/Spain-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "428193",
+        "country": "Svealand",
+        "artist": "CajsaStina Åkerström & Jack Vreeswijk",
+        "title": "Vår Sång",
+        "owner": "Stargazer",
+        "image": "https://i.postimg.cc/NjjNBs00/Svealand-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "512730",
+        "country": "The Gambia",
+        "artist": "Sona Jobarteh",
+        "title": "Jarabi",
+        "owner": "Looren",
+        "image": "https://i.postimg.cc/137vzkgr/The-Gambia-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "623849",
+        "country": "The Netherlands",
+        "artist": "Armin van Buuren feat. Sharon den Adel",
+        "title": "In And Out Of Love",
+        "owner": "FabiESC",
+        "image": "https://i.postimg.cc/43KBHWVk/The-Netherlands-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "738490",
+        "country": "Ukraine",
+        "artist": "Montesquieu",
+        "title": "Paliatyv",
+        "owner": "Fierro",
+        "image": "https://i.postimg.cc/ZnmcgZg4/Ukraine-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "843205",
+        "country": "United Kingdom",
+        "artist": "Etta Marcus",
+        "title": "Crown",
+        "owner": "ferret",
+        "image": "https://i.postimg.cc/SsCdDjgg/UK-wv190.png",
+        "status": "Not Qualified"
+      },
+      {
+        "code": "951326",
+        "country": "United States",
+        "artist": "Nicole Miglis",
+        "title": "All I See Is You",
+        "owner": "RainyWoods",
+        "image": "https://i.postimg.cc/3NZBQV5p/US-wv190.png",
+        "status": "Not Qualified"
+      }
   ]
   
